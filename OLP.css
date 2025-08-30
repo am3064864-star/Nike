@@ -1,0 +1,160 @@
+body{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.main{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main a{
+     margin: 0px;
+     padding: 10px;
+     text-decoration: none;
+     color: #000000;
+    font-size: 8px;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 900px;
+}
+.card3 div{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 150px;
+}   
+.card4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card4 button{
+    background-color: #fffefe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+.option{
+    background-color: #0a0909;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(114, 113, 113, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+.price button{
+    background-color: #fffefe;
+    border-radius: 10px;
+    padding: 0px 10px;
+    border: none;
+
+}
+.price button:hover{
+    background-color: #0a0909;
+    color: white;
+}
+.price{
+    gap: 10px;
+}
+.price select{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(114, 113, 113, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    align-items: end;
+    color: rgb(0, 0, 0);
+}
+.option2{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.shows{
+    background-color: rgb(7, 7, 7);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 100px;
+}
+.card3 img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card3 h4{
+    text-align: center;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.card3 div:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.card3 div:active{
+    transform: scale(0.95);
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.option:hover{
+    background-color: #fffefe;
+    color: black;
+}
+
